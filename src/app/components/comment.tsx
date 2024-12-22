@@ -6,7 +6,7 @@ interface Comment {
   content: string;
 }
 
-const CommentSection = ({ postId }: { postId: number }) => {
+const CommentSection = ({ }: { postId: number }) => {
   const [comments, setComments] = useState<Comment[]>([]);
   const [name, setName] = useState('');
   const [content, setContent] = useState('');

@@ -36,9 +36,9 @@ const PostPage = () => {
           />
         </div>
 
-        <h1 className="text-4xl font-bold mb-6">{post.title}</h1>
-        <p className="text-lg mb-6">{post.smallDescription}</p>
-        <p className='mt-8 text-xl mb-6'>{post.content}</p>
+        <h1 className="text-4xl font-bold mb-6 sm:text-2xl">{post.title}</h1>
+        <p className="text-lg mb-6 sm:text-xl">{post.smallDescription}</p>
+        <p className='mt-8 text-xl mb-6 sm:text-sm'>{post.content}</p>
 
         <div className="mt-8">
           <h2 className="text-2xl font-semibold">Comments</h2>
